@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "esx-framework.esx-legacy",
+        "overextended.cfxlua-vscode",
+        "sumneko.lua"
+    ]
+}
