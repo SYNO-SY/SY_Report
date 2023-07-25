@@ -7,7 +7,7 @@ import {
   rem,
   Tooltip,
 } from "@mantine/core";
-import { IconSquareRoundedX, IconX } from "@tabler/icons-react";
+import { IconX } from "@tabler/icons-react";
 
 const useStyles = createStyles((theme) => ({
   header: { borderRadius: rem(10) },

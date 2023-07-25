@@ -21,7 +21,7 @@ import {
   IconReportSearch,
   IconSend,
 } from "@tabler/icons-react";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const charactersList = [
   {
