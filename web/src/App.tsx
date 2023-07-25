@@ -1,5 +1,5 @@
-import { useNuiEvent } from "./hooks/useNuiEvent";
-import { fetchNui } from "./utils/fetchNui";
+// import { useNuiEvent } from "./hooks/useNuiEvent";
+// import { fetchNui } from "./utils/fetchNui";
 import { theme } from "./theme";
 import { MantineProvider } from "@mantine/core";
 import { useConfig } from "./providers/ConfigProvider";

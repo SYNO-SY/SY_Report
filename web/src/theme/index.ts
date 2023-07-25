@@ -1,5 +1,5 @@
 import { MantineThemeOverride } from '@mantine/core';
-import { CustomFonts } from './CustomFonts';
+// import { CustomFonts } from './CustomFonts';
 
 export const theme: MantineThemeOverride = {
   colorScheme: 'dark',

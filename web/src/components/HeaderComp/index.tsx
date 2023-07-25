@@ -7,7 +7,7 @@ import {
   rem,
   Tooltip,
 } from "@mantine/core";
-import { IconSquareRoundedX } from "@tabler/icons-react";
+import { IconSquareRoundedX, IconX } from "@tabler/icons-react";
 
 const useStyles = createStyles((theme) => ({
   header: { borderRadius: rem(10) },
@@ -48,9 +48,9 @@ export default function HeaderComp() {
           <ActionIcon
             color='cyan'
             size='xl'
-            radius='xl'
+            radius='lg'
             variant='light'>
-            <IconSquareRoundedX size='2.125rem' />
+            <IconX size='2.125rem' />
           </ActionIcon>
         </Tooltip>
       </Container>

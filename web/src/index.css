@@ -73,10 +73,3 @@ code {
 .mantine-k1u0mi[data-active] {
   color: #a5d8ff;
 }
-
-.mantine-18adrwl:disabled,
-.mantine-18adrwl[data-disabled] {
-  pointer-events: all;
-  color: #ffc9c9;
-  background-color: rgb(224 49 49 / 20%);
-}

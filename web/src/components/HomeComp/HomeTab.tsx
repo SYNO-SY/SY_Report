@@ -37,8 +37,7 @@ function Admin() {
 }
 
 function HomeTab() {
-  const profile_image =
-    "https://avatars.githubusercontent.com/u/89760730?s=96&v=4";
+  const profile_image = "";
   const profile_name = "SYNO";
   const discord = "843402061717438495";
   const steam = "843402061717438495";

@@ -11,36 +11,37 @@ import {
   Indicator,
 } from "@mantine/core";
 
-export default function AdminTable() {
-  const data = [
-    {
-      avatar:
-        "https://cdn.discordapp.com/attachments/954263572874137671/1052260551440482384/sachu.jpg",
-      name: "SYNO",
-      active: true,
-    },
-    {
-      avatar: "https://avatars.githubusercontent.com/u/123115522?v=4",
-      name: "Nick",
-      active: false,
-    },
+const data = [
+  {
+    avatar:
+      "https://cdn.discordapp.com/attachments/954263572874137671/1052260551440482384/sachu.jpg",
+    name: "SYNO",
+    active: true,
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/123115522?v=4",
+    name: "Nick",
+    active: false,
+  },
 
-    {
-      avatar: "",
-      name: "AK",
-      active: false,
-    },
-    {
-      avatar: "",
-      name: "Ayyu",
-      active: true,
-    },
-    {
-      avatar: "",
-      name: "Bazzi",
-      active: true,
-    },
-  ];
+  {
+    avatar: "",
+    name: "AK",
+    active: false,
+  },
+  {
+    avatar: "",
+    name: "Ayyu",
+    active: true,
+  },
+  {
+    avatar: "",
+    name: "Bazzi",
+    active: true,
+  },
+];
+
+export default function AdminTable() {
   const rows = data.map((item) => (
     <tr key={item.name}>
       <td>
